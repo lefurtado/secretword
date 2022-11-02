@@ -47,3 +47,32 @@
     text-align: center;
     margin-right: 1em;
 }
+
+@media (max-width: 576px) {
+    .game h1 {
+        font-size: 2em;
+    }
+
+    .letter,
+.blankSquare {
+    font-size: 20px;
+    border: 2px solid #000;
+    max-height: 25px;
+    max-width: 25px;
+}
+
+    .wordContainer {
+        margin: 1em;
+        padding: 1em;
+        justify-content: center;
+        border: 5px solid #ecfa00;
+        border-radius: 5px;
+    }
+
+    .letterContainer input {
+        max-height: 25px;
+        max-width: 25px;
+        font-size: 2em;
+        text-align: center;
+    }
+}
