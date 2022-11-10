@@ -15,7 +15,7 @@ Para rodar o projeto, faça um clone e após digite no console:
 * [Em caso de acerto da letra](#Em-caso-de-acerto-da-letra)
 * [Em caso de erro](#Em-caso-de-erro)
 * [Acerto da palavra](#Acerto-da-palavra)
-* [Gamve Over!](#Game-Over!)
+* [Gamve Over!](#Game-Over)
 
 ## Descrição do Projeto
 
