@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# SECRET WORD APP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+
+Projeto pessoal criado utilizando ReactJS
 
 ## Available Scripts
 
