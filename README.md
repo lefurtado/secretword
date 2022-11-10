@@ -2,71 +2,63 @@
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
-Projeto pessoal criado utilizando ReactJS
-
-## Available Scripts
-
-In the project directory, you can run:
+Para rodar o projeto, faça um clone e após digite no console:
+### `npm install`
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Índice
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* [Descrição do Projeto](#Descrição-do-projeto)
+* [A cara do projeto](#A-cara-do-projeto)
+* [Input](#Input)
+* [Em caso de acerto da letra](#Em-caso-de-acerto-da-letra)
+* [Em caso de erro](#Em-caso-de-erro)
+* [Acerto da palavra](#Acerto-da-palavra)
+* [Gamve Over!](#Game-Over!)
 
-### `npm test`
+## Descrição do Projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Projeto pessoal criado utilizando ReactJS.
+O projeto consiste em uma tela interativa na qual o usuário tenta adivinhar uma palavra dentro de um tema aleatório.
+Ah, e ele também está adaptado para smartphones ok?!
+Divirta-se e tente adivinhar todas as palavras!
 
-### `npm run build`
+### A cara do projeto!
+Essa é a tela inicial que o usuário verá assim que abrir a aplicação:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![image](https://user-images.githubusercontent.com/105092250/201227425-843f8b4b-ff32-48a5-8002-98e5aa3e5381.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![image](https://user-images.githubusercontent.com/105092250/201226178-e9d83547-3f11-4b6f-bd64-2b74f4041ae1.png)
 
-### `npm run eject`
+## Imagens da aplicação em celulares:
+![image](https://user-images.githubusercontent.com/105092250/201228868-cd30ea47-6db9-4904-a0a4-5dea3c9e4a74.png)
+![image](https://user-images.githubusercontent.com/105092250/201228892-863a78cd-ba5e-4165-91bc-47025eed77e7.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Input
+Esse campo abaixo é onde o usuário deverá colocar a letra a ser adivinhada da palavra, caso ela conter na palavra aleatória, a mesma será revelada e então o usuário poderá escolher outra letra.
+OBS.: Pra casos de usabilidade, não é necessário clicar no campo a cada letra a ser adivinhada, apenas utilizando a tecla enter o usuário já consegue fazer o input do dado.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![image](https://user-images.githubusercontent.com/105092250/201226480-50a58ace-e4d6-480a-abf4-67f0fb3388dd.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Em caso de acerto da letra
+Caso o usuário acerte a letra, irá aparecer da seguinte forma:
 
-## Learn More
+![image](https://user-images.githubusercontent.com/105092250/201226582-ba15eb72-764a-4fd0-b0fa-27478c3e5163.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Em caso de erro
+Caso o usuário digite uma letra que não contenha na palavra, a mesma será computada abaixo no campo "Letras já utilizadas" para servir de auxílio na hora de adivinhar uma outra letra e não repetir. Também caso o usuário erre a letra, a tentativa será subtraída do total de tentativas que o usuário terá em cada sessão do jogo.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![image](https://user-images.githubusercontent.com/105092250/201226917-d0c9e94d-5692-48a8-8069-06d5511684f8.png)
 
-### Code Splitting
+### Acerto da palavra
+Quando o usuário acerta a palavra, é somado um valor de 100 à pontuação do usuário como segue: 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![image](https://user-images.githubusercontent.com/105092250/201227016-2a6096b0-3cea-43fd-a25a-917b3aa8626d.png)
 
-### Analyzing the Bundle Size
+### Game Over!
+Caso as tentativas do usuário tenham acabado, o jogo finaliza e será mostrado a pontuação total daquela sessão e um botão para começar novamente o jogo:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![image](https://user-images.githubusercontent.com/105092250/201227287-2d74d82b-afa4-42b3-b79e-1896261006fb.png)
